@@ -1,0 +1,11 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="RSMY" fileName="RSMY.dll" assemblyName="RSMY.dll" id="Project-8D5583FDD604184" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="3D603AFF785430D9D40B8B4473A61A">
+    <Assemblies>
+      <Assembly value="RSMY.dll" digest="3561106ED03146A91329F8C2214D77" />
+      <Assembly value="RSMY.pdb" digest="1639A36AF50FC5CCE971C1B7958CC4" />
+      <Assembly value="GitLabWebProj.dll" digest="F2EC515D109A5A5603FC83F8E28659" />
+      <Assembly value="PegaDevWebProj.dll" digest="6B54CED2454C450F5FA27481D51396" />
+      <Assembly value="PMFWebProj.dll" digest="56F8DDC7123ED9EB4961D7A4769201" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="VMWorkstationProj" fileName="VMWorkstationProj.dll" assemblyName="VMWorkstationProj.dll" id="Project-8D55845A359BA43" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="D1508473CA821CDCDAB2AB6FF8E81D">
+    <Assemblies>
+      <Assembly value="VMWorkstationProj.dll" digest="92B6EA61583B4631E417356425354A" />
+      <Assembly value="VMWorkstationProj.pdb" digest="B18FE158465772795A15DDE1404FC5" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

@@ -1,0 +1,2 @@
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\ImportTypeMap.resources
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\MSOutlookProj.osproj.GenerateResource.Cache

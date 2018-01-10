@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="PMFWebProj" fileName="PMFWebProj.dll" assemblyName="PMFWebProj.dll" id="Project-8D558456F2813C8" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="CBBB7FCD858C2874C31DAC605EAD99">
+    <Assemblies>
+      <Assembly value="PMFWebProj.dll" digest="56F8DDC7123ED9EB4961D7A4769201" />
+      <Assembly value="PMFWebProj.pdb" digest="FB83679E3707A67B12AA205F8F7ECF" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

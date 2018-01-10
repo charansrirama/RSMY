@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Pega Robotics Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "RSMY", "RSMY\RSMY.osproj", "{DAF76068-611B-4F82-927D-B4E82F27D2F4}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "MSOutlookProj", "MSOutlookProj\MSOutlookProj.osproj", "{67C20B90-C157-4ECC-960B-EDF67F7EA60A}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "PMFWebProj", "PMFWebProj\PMFWebProj.osproj", "{77515231-644B-41A8-97B9-58B7EC8D1F99}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "GitLabWebProj", "GitLabWebProj\GitLabWebProj.osproj", "{B4871A9E-2617-4A9A-80B8-1CD8819A3C50}"
+EndProject
+Project("{B45C44CD-E95B-43EF-AF7C-4D25776FBF5E}") = "PegaDevWebProj", "PegaDevWebProj\PegaDevWebProj.osproj", "{0F12CCB0-2D0D-48CC-AB8A-AB6A1674FF02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAF76068-611B-4F82-927D-B4E82F27D2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF76068-611B-4F82-927D-B4E82F27D2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF76068-611B-4F82-927D-B4E82F27D2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF76068-611B-4F82-927D-B4E82F27D2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C20B90-C157-4ECC-960B-EDF67F7EA60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C20B90-C157-4ECC-960B-EDF67F7EA60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C20B90-C157-4ECC-960B-EDF67F7EA60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C20B90-C157-4ECC-960B-EDF67F7EA60A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77515231-644B-41A8-97B9-58B7EC8D1F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77515231-644B-41A8-97B9-58B7EC8D1F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77515231-644B-41A8-97B9-58B7EC8D1F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77515231-644B-41A8-97B9-58B7EC8D1F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4871A9E-2617-4A9A-80B8-1CD8819A3C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4871A9E-2617-4A9A-80B8-1CD8819A3C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4871A9E-2617-4A9A-80B8-1CD8819A3C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4871A9E-2617-4A9A-80B8-1CD8819A3C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F12CCB0-2D0D-48CC-AB8A-AB6A1674FF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F12CCB0-2D0D-48CC-AB8A-AB6A1674FF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F12CCB0-2D0D-48CC-AB8A-AB6A1674FF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F12CCB0-2D0D-48CC-AB8A-AB6A1674FF02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
