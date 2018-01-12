@@ -1,0 +1,9 @@
+<Cache>
+  <Project configuration="" />
+  <DesignComponents>
+    <DesignComponent id="GlobalContainer-8D559A643E79644" className="Outlook_GC" type="GlobalContainer" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D559A4BCEAFB41" className="Outlook_P_PegaNotification" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D559A6335FB08C" className="Outlook_P_ToList" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D559A6871D46FC" className="Outlook_P_FromList" type="Automation" isPublic="True" screenShots="" />
+  </DesignComponents>
+</Cache>

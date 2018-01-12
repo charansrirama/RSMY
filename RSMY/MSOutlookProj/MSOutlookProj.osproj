@@ -15,7 +15,7 @@
     <!-- Custom properties -->
     <Name>MSOutlookProj</Name>
     <Id>Project-8D558455A35D45A</Id>
-    <Version>8.0.1072.0</Version>
+    <Version>8.0.1067.0</Version>
     <TransformationVersion>8.0.1026.0</TransformationVersion>
     <ConfigurationFile>
     </ConfigurationFile>
@@ -69,6 +69,14 @@
   </PropertyGroup>
   <Import Project="$(OpenSpanPath)\OpenSpan.targets" />
   <ItemGroup>
+    <Reference Include="OpenSpan.NativeInterop, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.NativeInterop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Office, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Office.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
@@ -81,15 +89,15 @@
     <Reference Include="System.Xml">
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan">
+    <Reference Include="OpenSpan, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Automation">
+    <Reference Include="OpenSpan.Automation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Automation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenSpan.Runtime.Core">
+    <Reference Include="OpenSpan.Runtime.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Runtime.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -99,5 +107,23 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Outlook_GC.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D559A643E79644</Id>
+    </Compile>
+    <Compile Include="Outlook_P_FromList.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D559A6871D46FC</Id>
+    </Compile>
+    <Compile Include="Outlook_P_PegaNotification.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D559A4BCEAFB41</Id>
+    </Compile>
+    <Compile Include="Outlook_P_ToList.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D559A6335FB08C</Id>
+    </Compile>
   </ItemGroup>
 </Project>

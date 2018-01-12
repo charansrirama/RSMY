@@ -1,8 +1,8 @@
 <DeploymentManifest version="5.0">
   <CompositeStudioProject name="GitLabWebProj" fileName="GitLabWebProj.dll" assemblyName="GitLabWebProj.dll" id="Project-8D558457B93A723" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="D425A4CE69D7036BEA97AD8896A2F4">
     <Assemblies>
-      <Assembly value="GitLabWebProj.dll" digest="F2EC515D109A5A5603FC83F8E28659" />
-      <Assembly value="GitLabWebProj.pdb" digest="136D1B3E80D20A2562EE01BEAA68B5" />
+      <Assembly value="GitLabWebProj.dll" digest="F385BFB47B392BE279B1B83E764D88" />
+      <Assembly value="GitLabWebProj.pdb" digest="688A5165E3C1A3E4FDB423B8D52B45" />
     </Assemblies>
   </CompositeStudioProject>
 </DeploymentManifest>

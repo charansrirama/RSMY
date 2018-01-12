@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="MSOutlookProj" fileName="MSOutlookProj.dll" assemblyName="MSOutlookProj.dll" id="Project-8D558455A35D45A" version="8.0.1067.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="C73543BA95B831B88A802C75C9B5D3">
+    <Assemblies>
+      <Assembly value="MSOutlookProj.dll" digest="A7D77512252E6022E544F21728D4F3" />
+      <Assembly value="MSOutlookProj.pdb" digest="14A8AA549CF8ADAC04E556AE34A223" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

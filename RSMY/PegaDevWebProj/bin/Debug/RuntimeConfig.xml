@@ -200,7 +200,7 @@
     <add key="ShowExitingRuntime" value="true" />
     <!-- Version of OpenSpan Office assemblies to use with Runtime. -->
     <!-- Values: "None", "2002", "2003", "2007", "2010", "2013" or "2016" -->
-    <add key="OfficeVersion" value="2013" />
+    <add key="OfficeVersion" value="2016" />
     <!-- Determines whether Direct Generic Events should be enabled.  This only applies to technologies that support direct generic events -->
     <add key="SendDirectGenericEvents" value="true" />
     <!-- Comma delimited list of case insensitive process names to prevent injection and hooking for. Maximum length 127. -->

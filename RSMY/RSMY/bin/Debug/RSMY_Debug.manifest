@@ -1,11 +1,11 @@
 <DeploymentManifest version="5.0">
   <CompositeStudioProject name="RSMY" fileName="RSMY.dll" assemblyName="RSMY.dll" id="Project-8D5583FDD604184" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="3D603AFF785430D9D40B8B4473A61A">
     <Assemblies>
-      <Assembly value="RSMY.dll" digest="3561106ED03146A91329F8C2214D77" />
-      <Assembly value="RSMY.pdb" digest="1639A36AF50FC5CCE971C1B7958CC4" />
-      <Assembly value="GitLabWebProj.dll" digest="F2EC515D109A5A5603FC83F8E28659" />
-      <Assembly value="PegaDevWebProj.dll" digest="6B54CED2454C450F5FA27481D51396" />
-      <Assembly value="PMFWebProj.dll" digest="56F8DDC7123ED9EB4961D7A4769201" />
+      <Assembly value="RSMY.dll" digest="C9AEC5425FF3A4722CCF2F990B964C" />
+      <Assembly value="RSMY.pdb" digest="30E90AFA4A42AE2479E356410E8C03" />
+      <Assembly value="GitLabWebProj.dll" digest="F385BFB47B392BE279B1B83E764D88" />
+      <Assembly value="PegaDevWebProj.dll" digest="D0414A0B7B81BD4B7EFFE4A2DB0BB4" />
+      <Assembly value="PMFWebProj.dll" digest="0676F783EB334042D8DCAE9CDFF1E3" />
     </Assemblies>
   </CompositeStudioProject>
 </DeploymentManifest>

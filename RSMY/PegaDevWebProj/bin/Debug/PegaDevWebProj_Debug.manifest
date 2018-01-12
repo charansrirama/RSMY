@@ -1,8 +1,8 @@
 <DeploymentManifest version="5.0">
   <CompositeStudioProject name="PegaDevWebProj" fileName="PegaDevWebProj.dll" assemblyName="PegaDevWebProj.dll" id="Project-8D55845889C0B3D" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="05597815FF2B014E0202EDFEB6FE73">
     <Assemblies>
-      <Assembly value="PegaDevWebProj.dll" digest="6B54CED2454C450F5FA27481D51396" />
-      <Assembly value="PegaDevWebProj.pdb" digest="7D0DD23899F76BFAE51523BC286B1C" />
+      <Assembly value="PegaDevWebProj.dll" digest="D0414A0B7B81BD4B7EFFE4A2DB0BB4" />
+      <Assembly value="PegaDevWebProj.pdb" digest="2FC1F324912E141E52E372DE464F68" />
     </Assemblies>
   </CompositeStudioProject>
 </DeploymentManifest>
