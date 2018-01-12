@@ -1,5 +1,7 @@
 using RSMY_StartApps = RSMY.StartApps;
 
+using RSMY_TestHarness = RSMY.TestHarness;
+
 using RSMY__RSMY_GC = RSMY._RSMY_GC;
 
 using System;
@@ -117,6 +119,15 @@ public sealed class RSMY : OpenSpan.Runtime.RuntimeProject
 		get
 		{
 			return ((RSMY_StartApps)(this["StartApps"]));
+		}
+	}
+	
+	// Automator-8D559B332B787A1
+	public RSMY_TestHarness TestHarness
+	{
+		get
+		{
+			return ((RSMY_TestHarness)(this["TestHarness"]));
 		}
 	}
 	

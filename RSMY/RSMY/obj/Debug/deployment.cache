@@ -1,6 +1,8 @@
 <Cache>
   <References>
+    <Reference value="|Documents|\GitHub\RSMY\RSMY\bin\OSComponents.Utilities.TestHarness.dll" />
     <Reference value="..\GitLabWebProj\bin\Debug\GitLabWebProj.dll" />
+    <Reference value="..\MSOutlookProj\bin\Debug\MSOutlookProj.dll" />
     <Reference value="..\PegaDevWebProj\bin\Debug\PegaDevWebProj.dll" />
     <Reference value="..\PMFWebProj\bin\Debug\PMFWebProj.dll" />
   </References>

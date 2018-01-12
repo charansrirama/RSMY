@@ -121,6 +121,7 @@
     <value>&lt;Imports&gt;
   &lt;ImportedProjects&gt;
     &lt;ID-b4871a9e-2617-4a9a-80b8-1cd8819a3c50 assemblyName="GitLabWebProj" /&gt;
+    &lt;ID-67c20b90-c157-4ecc-960b-edf67f7ea60a assemblyName="MSOutlookProj" /&gt;
     &lt;ID-0f12ccb0-2d0d-48cc-ab8a-ab6a1674ff02 assemblyName="PegaDevWebProj" /&gt;
     &lt;ID-77515231-644b-41a8-97b9-58b7ec8d1f99 assemblyName="PMFWebProj" /&gt;
   &lt;/ImportedProjects&gt;

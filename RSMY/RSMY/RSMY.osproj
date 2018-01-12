@@ -71,6 +71,10 @@
   </PropertyGroup>
   <Import Project="$(OpenSpanPath)\OpenSpan.targets" />
   <ItemGroup>
+    <Reference Include="OpenSpan.Adapters, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Adapters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenSpan.ApplicationFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.ApplicationFramework.dll</HintPath>
       <Private>False</Private>
@@ -91,6 +95,10 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Interactions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="OpenSpan.Interactions.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Interactions.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenSpan.NativeInterop, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.NativeInterop.dll</HintPath>
       <Private>False</Private>
@@ -99,12 +107,20 @@
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Recording.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="OpenSpan.Script, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Script.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenSpan.Server.Client, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Server.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="OpenSpan.Threading, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(OPENSPAN_APPLICATION_PATH)\OpenSpan.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OSComponents.Utilities.TestHarness, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c0cb69f111622a50">
+      <HintPath>C:\Users\mummg\Documents\GitHub\RSMY\RSMY\bin\OSComponents.Utilities.TestHarness.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System">
@@ -144,6 +160,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D5584A43CFC4BA</Id>
     </Compile>
+    <Compile Include="TestHarness.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D559B332B787A1</Id>
+    </Compile>
     <Compile Include="_RSMY_GC.os">
       <SubType>Component</SubType>
       <Id>GlobalContainer-8D5584A5CBDA1D6</Id>
@@ -153,6 +173,11 @@
     <ProjectReference Include="..\GitLabWebProj\GitLabWebProj.osproj">
       <Name>GitLabWebProj</Name>
       <Project>{b4871a9e-2617-4a9a-80b8-1cd8819a3c50}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MSOutlookProj\MSOutlookProj.osproj">
+      <Name>MSOutlookProj</Name>
+      <Project>{67c20b90-c157-4ecc-960b-edf67f7ea60a}</Project>
       <Private>True</Private>
     </ProjectReference>
     <ProjectReference Include="..\PegaDevWebProj\PegaDevWebProj.osproj">

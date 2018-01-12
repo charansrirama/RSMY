@@ -2,6 +2,7 @@
   <Project configuration="" />
   <DesignComponents>
     <DesignComponent id="Automator-8D5584A43CFC4BA" className="StartApps" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D559B332B787A1" className="TestHarness" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="GlobalContainer-8D5584A5CBDA1D6" className="_RSMY_GC" type="GlobalContainer" isPublic="True" screenShots="" />
   </DesignComponents>
 </Cache>

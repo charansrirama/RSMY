@@ -22,6 +22,7 @@ namespace RSMY.Project
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
 			base.DesignComponentTypes.Add("RSMY.StartApps");
+			base.DesignComponentTypes.Add("RSMY.TestHarness");
 			base.DesignComponentTypes.Add("RSMY._RSMY_GC");
 		}
 	}

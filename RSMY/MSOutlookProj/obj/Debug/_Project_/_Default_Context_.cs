@@ -21,7 +21,7 @@ namespace MSOutlookProj.Project
 			mName = "Default";
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
-			base.DesignComponentTypes.Add("MSOutlookProj.Outlook_GC");
+			base.DesignComponentTypes.Add("MSOutlookProj._Outlook_GC");
 			base.DesignComponentTypes.Add("MSOutlookProj.Outlook_P_FromList");
 			base.DesignComponentTypes.Add("MSOutlookProj.Outlook_P_PegaNotification");
 			base.DesignComponentTypes.Add("MSOutlookProj.Outlook_P_ToList");
