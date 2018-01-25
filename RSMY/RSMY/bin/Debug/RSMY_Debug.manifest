@@ -1,11 +1,11 @@
 <DeploymentManifest version="5.0">
   <CompositeStudioProject name="RSMY" fileName="RSMY.dll" assemblyName="RSMY.dll" id="Project-8D5583FDD604184" version="8.0.1072.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="E2A2226700EC3447A6EA1B50D82748">
     <Assemblies>
-      <Assembly value="RSMY.dll" digest="650A2BFBAD5E81D754AD34CBC65C88" />
-      <Assembly value="RSMY.pdb" digest="C743A734A77D080A0DEDEAED414150" />
+      <Assembly value="RSMY.dll" digest="A6132679AE47739274D24327ACB621" />
+      <Assembly value="RSMY.pdb" digest="B0C7AA765546E9884158B8017D41A7" />
       <Assembly value="OSComponents.Utilities.TestHarness.dll" digest="B88838F7D721D25827B94DE25B4287" />
       <Assembly value="GitLabWebProj.dll" digest="F385BFB47B392BE279B1B83E764D88" />
-      <Assembly value="MSOutlookProj.dll" digest="7A0ABD322D7A7062F3BAD3904E043C" />
+      <Assembly value="MSOutlookProj.dll" digest="5F60ED275215AABC3AA9986941AB14" />
       <Assembly value="PegaDevWebProj.dll" digest="D0414A0B7B81BD4B7EFFE4A2DB0BB4" />
       <Assembly value="PMFWebProj.dll" digest="0676F783EB334042D8DCAE9CDFF1E3" />
     </Assemblies>

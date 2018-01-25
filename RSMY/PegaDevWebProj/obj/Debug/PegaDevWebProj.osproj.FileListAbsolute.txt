@@ -37,7 +37,6 @@ C:\Users\srirc\Documents\GitHub\RSMY\RSMY\PegaDevWebProj\obj\Debug\PegaDevWebPro
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\PegaDevWebProj\obj\Debug\PegaDevLab5127.screenshots.resx
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\PegaDevWebProj\obj\Debug\PegaDevWebProj.dll
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\PegaDevWebProj\obj\Debug\PegaDevWebProj.pdb
-C:\Users\srirc\Documents\GitHub\RSMY\RSMY\PegaDevWebProj\obj\Debug\PegaDevLab5127.screenshots.resources
 C:\Users\janor\Documents\GitHub\RSMY\RSMY\PegaDevWebProj\bin\Debug\PegaDevWebProj.ScreenShots.dll
 C:\Users\janor\Documents\GitHub\RSMY\RSMY\PegaDevWebProj\bin\Debug\OpenSpan.Adapters.Virtual.dll
 C:\Users\janor\Documents\GitHub\RSMY\RSMY\PegaDevWebProj\bin\Debug\OpenSpan.WinInet.x32.dll

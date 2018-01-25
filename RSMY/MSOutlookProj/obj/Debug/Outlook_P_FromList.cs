@@ -11,6 +11,8 @@ namespace MSOutlookProj
 public sealed class Outlook_P_FromList : OpenSpan.Automation.Automator
 {
 	
+	private OpenSpan.Automation.ConnectableEvent connectableEvent1;
+	
 	public Outlook_P_FromList()
 	{
 		// 
@@ -20,6 +22,9 @@ public sealed class Outlook_P_FromList : OpenSpan.Automation.Automator
 		// 
 		// Setup field members
 		// 
+		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(Outlook_P_FromList));
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		this.connectableEvent1 = new OpenSpan.Automation.ConnectableEvent();
 		// 
 		// Initialize design component
 		// 
@@ -29,9 +34,13 @@ public sealed class Outlook_P_FromList : OpenSpan.Automation.Automator
 		// 
 		this.Id = new OpenSpan.Design.ComponentIdentity("Automator-8D559A6871D46FC");
 		// 
+		// Set component Ids
+		// 
+		this.SetId(this.connectableEvent1, new OpenSpan.Design.ComponentIdentity("ConnectableEvent-8D559D6C58C5034"));
+		// 
 		// Outlook_P_FromList
 		// 
-		ComponentInfo.CodeDomData = @"OSVSXaQIAALVSTWvCQBD9K4vnYGJragKJYBVBemip4n138wJLd2fDfhz231sPbQlK8aDMZXgz781ns7ZmsAQKO+rtsjmkAezIdUQ7eR9A+4HTdBWDNTwo++taN2H5sll5DyN0+ocxyvtEDweS8Jdc46V1WomMHeH8N7OdT4uzZWwddYgOLSEGx3XGPqLQSr4hHewXqBWLBS9l+TKrn+coqvpqb/vkA8yj1H8m/9OvbtXvy07UM3SyeOoqWeLWzd6rVH7tOptE3Ch5GToztkpjjLxGpbsxlI8/6wQ=";
+		ComponentInfo.CodeDomData = _resources_.GetString("_Outlook_P_FromList_1_");
 		this.IsStartStoppable = false;
 		this.LogData = true;
 		this.LogEvents = true;
@@ -41,14 +50,28 @@ public sealed class Outlook_P_FromList : OpenSpan.Automation.Automator
 		this.ShowDesignCompNames = true;
 		this.SuppressErrors = false;
 		// 
+		// connectableEvent1
+		// 
+		this.connectableEvent1.DisplayName = "null";
+		this.connectableEvent1.ExceptionsHandled = false;
+		this.connectableEvent1.InstanceTypeName = "OpenSpan.Office.MicrosoftOutlook";
+		this.connectableEvent1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D559A643E79644\\MicrosoftOutlook-8D559A64DC65E61");
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "NewMail";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Event;
+		memberprototype1.Signature.ReturnType = null;
+		memberprototype1.TypeAssemblyName = "OpenSpan.Office";
+		memberprototype1.TypeName = "OpenSpan.Office.MicrosoftOutlookMailHandler";
+		this.connectableEvent1.MemberPrototypes.Add(memberprototype1);
+		// 
 		// Initialize CodeDom data
 		// 
-		this.CodeDomData = "OSVSXnAAAALNxLC3Jz00syczPc8lPLs1NzSux4+VSULDxS8xNVQhLzClNtVVSUtCHCAZnVsEFTQ0MDHQU" +
-			"QCRc2j8pKzW5pBjG9cnMy4ZznPNzQYbD+cGlSe5FiQUZEAEbfSzuAAA=";
+		this.CodeDomData = _resources_.GetString("_Outlook_P_FromList_2_");
 		// 
 		// Add components
 		// 
 		this.mComponents = new System.Collections.Generic.List<System.ComponentModel.IComponent>(20);
+		this.Components.Add(this.connectableEvent1);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -75,6 +98,29 @@ public sealed class Outlook_P_FromList : OpenSpan.Automation.Automator
 	public override void Stop()
 	{
 		base.Stop();
+	}
+	
+	internal OpenSpan.Automation.ConnectableEvent Create_connectableEvent1(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableEvent connectableEvent1 = new OpenSpan.Automation.ConnectableEvent();
+		this.SetId(connectableEvent1, new OpenSpan.Design.ComponentIdentity("ConnectableEvent-8D559D6C58C5034"));
+		connectableEvent1.DisplayName = "null";
+		connectableEvent1.ExceptionsHandled = false;
+		connectableEvent1.InstanceTypeName = "OpenSpan.Office.MicrosoftOutlook";
+		connectableEvent1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D559A643E79644\\MicrosoftOutlook-8D559A64DC65E61");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "NewMail";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Event;
+		memberprototype1.Signature.ReturnType = null;
+		memberprototype1.TypeAssemblyName = "OpenSpan.Office";
+		memberprototype1.TypeName = "OpenSpan.Office.MicrosoftOutlookMailHandler";
+		connectableEvent1.MemberPrototypes.Add(memberprototype1);
+		// 
+		// Result
+		// 
+		return connectableEvent1;
 	}
 }
 

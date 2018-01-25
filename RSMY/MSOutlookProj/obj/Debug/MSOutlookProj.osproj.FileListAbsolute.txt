@@ -16,3 +16,9 @@ C:\Users\mummg\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\ImportTypeMap.
 C:\Users\mummg\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\MSOutlookProj.osproj.GenerateResource.Cache
 C:\Users\mummg\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\MSOutlookProj.dll
 C:\Users\mummg\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\MSOutlookProj.pdb
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\MSOutlookProj\bin\Debug\RuntimeConfig.xml
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\MSOutlookProj\bin\Debug\MSOutlookProj.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\MSOutlookProj\bin\Debug\MSOutlookProj.pdb
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\MSOutlookProj.osprojResolveAssemblyReference.cache
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\MSOutlookProj.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\MSOutlookProj\obj\Debug\MSOutlookProj.pdb

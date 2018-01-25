@@ -46,7 +46,6 @@ C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\OpenSpan.Adapters.Web.d
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\OpenSpan.Adapters.ActiveX.dll
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\OpenSpan.Adapters.Windows.dll
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\OpenSpan.Adapters.WinInet.dll
-C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\OpenSpan.Adapters.dll
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\Newtonsoft.Json.dll
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\DevExpress.XtraEditors.v6.3.dll
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\DevExpress.Utils.v6.3.dll
@@ -214,3 +213,13 @@ C:\Users\mummg\Documents\GitHub\RSMY\RSMY\RSMY\obj\Debug\MessageManifest.resourc
 C:\Users\mummg\Documents\GitHub\RSMY\RSMY\RSMY\obj\Debug\RSMY.osproj.GenerateResource.Cache
 C:\Users\mummg\Documents\GitHub\RSMY\RSMY\RSMY\obj\Debug\RSMY.dll
 C:\Users\mummg\Documents\GitHub\RSMY\RSMY\RSMY\obj\Debug\RSMY.pdb
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\MSOutlookProj.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\OSComponents.Utilities.TestHarness.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\OpenSpan.Office.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\office.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\stdole.dll
+C:\Users\srirc\Documents\GitHub\RSMY\RSMY\RSMY\bin\Debug\MSOutlookProj.pdb

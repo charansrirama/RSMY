@@ -38,7 +38,6 @@ C:\Users\srirc\Documents\GitHub\RSMY\RSMY\GitLabWebProj\obj\Debug\GitLab.screens
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\GitLabWebProj\obj\Debug\GitLabWebProj.dll
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\GitLabWebProj\obj\Debug\GitLabWebProj.pdb
 C:\Users\srirc\Documents\GitHub\RSMY\RSMY\GitLabWebProj\obj\Debug\MessageManifest.resources
-C:\Users\srirc\Documents\GitHub\RSMY\RSMY\GitLabWebProj\obj\Debug\GitLab.screenshots.resources
 C:\Users\janor\Documents\GitHub\RSMY\RSMY\GitLabWebProj\bin\Debug\GitLabWebProj.ScreenShots.dll
 C:\Users\janor\Documents\GitHub\RSMY\RSMY\GitLabWebProj\bin\Debug\OpenSpan.Adapters.Virtual.dll
 C:\Users\janor\Documents\GitHub\RSMY\RSMY\GitLabWebProj\bin\Debug\OpenSpan.WinInet.x32.dll

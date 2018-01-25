@@ -249,6 +249,115 @@
               </Items>
             </Content>
           </OpenSpan.Adapters.Controls.Form>
+          <OpenSpan.Adapters.Web.Controls.WebPage Name="pgPegaAgileStudio" Id="WebPage-8D55DC06F18EBF8">
+            <DummyPropertyToDetectReplaceUndo Value="0" />
+            <ForwardObjectExplorerEvent Value="True" />
+            <IsGlobal Value="True" />
+            <MatchingIndex Value="3" />
+            <TargetTypeString Value="OpenSpan.Adapters.Web.HtmlDocument, OpenSpan.Adapters.Web" />
+            <Content Name="Controls">
+              <Items>
+                <OpenSpan.Adapters.Web.Controls.Link Name="linkNotifications" Id="Link-8D55DC0DDDCA8AE">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <MatchingIndex Value="13" />
+                  <TagName Value="A" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.HtmlAnchorElement, OpenSpan.Adapters.Web" />
+                  <UseElementId Value="False" />
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.MatchRules.AnchorUrlMatchRule Name="anchorUrlMatchRule1" Id="AnchorUrlMatchRule-8D55DC0DDE5A9D4">
+                        <Fragment Value="Simple|True|(User Culture)|#" />
+                        <Host Value="Simple|True|(User Culture)|agilestudio.pega.com" />
+                        <Path Value="Contains|True|(User Culture)|/prweb/AgileStudio/" />
+                        <Port Value="443" />
+                        <Query Value="Contains|True|(User Culture)|?pzPostData" />
+                        <Scheme Value="Simple|True|(User Culture)|https" />
+                      </OpenSpan.Adapters.Web.MatchRules.AnchorUrlMatchRule>
+                      <OpenSpan.Adapters.Web.MatchRules.AnchorNameMatchRule Name="anchorNameMatchRule1" Id="AnchorNameMatchRule-8D55DC0DDF2A2CE">
+                        <Target Value="pyDesktopNotificationGadget_pyDisplayHarness_1" />
+                      </OpenSpan.Adapters.Web.MatchRules.AnchorNameMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.Controls.Link>
+              </Items>
+            </Content>
+            <Content Name="MatchRules">
+              <Items>
+                <OpenSpan.Adapters.Web.MatchRules.DocumentUrlMatchRule Name="documentUrlMatchRule1" Id="DocumentUrlMatchRule-8D55DC06F893FB8">
+                  <Fragment Value="Simple|True|(User Culture)|" />
+                  <Host Value="Simple|True|(User Culture)|agilestudio.pega.com" />
+                  <Path Value="Contains|True|(User Culture)|/prweb/AgileStudio/" />
+                  <Port Value="443" />
+                  <Query Value="Simple|True|(User Culture)|" />
+                  <Scheme Value="Simple|True|(User Culture)|https" />
+                </OpenSpan.Adapters.Web.MatchRules.DocumentUrlMatchRule>
+                <OpenSpan.Adapters.Web.MatchRules.DocumentTitleMatchRule Name="documentTitleMatchRule1" Id="DocumentTitleMatchRule-8D55DC06F8E0E6F">
+                  <Text Value="Simple|True|(User Culture)|Pega Agile Studio" />
+                </OpenSpan.Adapters.Web.MatchRules.DocumentTitleMatchRule>
+              </Items>
+            </Content>
+          </OpenSpan.Adapters.Web.Controls.WebPage>
+          <OpenSpan.Adapters.Web.Controls.WebPage Name="Dashboard_tab_of_Case_Manager_porta" Id="WebPage-8D55DC211994A09">
+            <DummyPropertyToDetectReplaceUndo Value="0" />
+            <ForwardObjectExplorerEvent Value="True" />
+            <IsGlobal Value="True" />
+            <MatchingIndex Value="0" />
+            <TargetTypeString Value="OpenSpan.Adapters.Web.HtmlDocument, OpenSpan.Adapters.Web" />
+            <Content Name="Controls">
+              <Items>
+                <OpenSpan.Adapters.Web.Controls.Form Name="main" Id="Form-8D55DC21D423335">
+                  <DummyPropertyToDetectReplaceUndo Value="0" />
+                  <ForwardObjectExplorerEvent Value="True" />
+                  <MatchingIndex Value="0" />
+                  <TagName Value="FORM" />
+                  <TargetTypeString Value="OpenSpan.Adapters.Web.HtmlFormElement, OpenSpan.Adapters.Web" />
+                  <UseElementId Value="False" />
+                  <Content Name="Controls">
+                    <Items>
+                      <OpenSpan.Adapters.Web.Controls.BasicButton Name="basicButton1" Id="BasicButton-8D55DC21D38BCD9">
+                        <DummyPropertyToDetectReplaceUndo Value="0" />
+                        <ForwardObjectExplorerEvent Value="True" />
+                        <MatchingIndex Value="12" />
+                        <TagName Value="BUTTON" />
+                        <TargetTypeString Value="OpenSpan.Adapters.Web.HtmlButtonElement, OpenSpan.Adapters.Web" />
+                        <UseElementId Value="False" />
+                        <Content Name="MatchRules">
+                          <Items>
+                            <OpenSpan.Adapters.Web.MatchRules.ButtonNameMatchRule Name="buttonNameMatchRule1" Id="ButtonNameMatchRule-8D55DC21D57CBA8">
+                              <HtmlName Value="pyFeed_D_pzFeedParams_7" />
+                            </OpenSpan.Adapters.Web.MatchRules.ButtonNameMatchRule>
+                          </Items>
+                        </Content>
+                      </OpenSpan.Adapters.Web.Controls.BasicButton>
+                    </Items>
+                  </Content>
+                  <Content Name="MatchRules">
+                    <Items>
+                      <OpenSpan.Adapters.Web.MatchRules.FormNameMatchRule Name="formNameMatchRule1" Id="FormNameMatchRule-8D55DC21D4A22DD">
+                        <HtmlName Value="main" />
+                      </OpenSpan.Adapters.Web.MatchRules.FormNameMatchRule>
+                    </Items>
+                  </Content>
+                </OpenSpan.Adapters.Web.Controls.Form>
+              </Items>
+            </Content>
+            <Content Name="MatchRules">
+              <Items>
+                <OpenSpan.Adapters.Web.MatchRules.DocumentUrlMatchRule Name="documentUrlMatchRule2" Id="DocumentUrlMatchRule-8D55DC2119DCA9C">
+                  <Fragment Value="Simple|True|(User Culture)|" />
+                  <Host Value="Simple|True|(User Culture)|agilestudio.pega.com" />
+                  <Path Value="Simple|True|(User Culture)|/prweb/AgileStudio/z9TwsFgrP5T_i0ULWyqfeAGRYGrYSWAmXg2-aEDs9JI%5B*/!TABTHREAD0" />
+                  <Port Value="443" />
+                  <Query Value="Simple|True|(User Culture)|" />
+                  <Scheme Value="Simple|True|(User Culture)|https" />
+                </OpenSpan.Adapters.Web.MatchRules.DocumentUrlMatchRule>
+                <OpenSpan.Adapters.Web.MatchRules.DocumentTitleMatchRule Name="documentTitleMatchRule2" Id="DocumentTitleMatchRule-8D55DC211A1FD0B">
+                  <Text Value="Simple|True|(User Culture)|Dashboard tab of Case Manager portal" />
+                </OpenSpan.Adapters.Web.MatchRules.DocumentTitleMatchRule>
+              </Items>
+            </Content>
+          </OpenSpan.Adapters.Web.Controls.WebPage>
         </Items>
       </Content>
       <Content Name="Credentials">

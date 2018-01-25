@@ -80,7 +80,7 @@
     <!--          Requests from any domain not in this list will be rejected. -->
     <!--   JWTSecurity: If true, enhanced security is enabled that required signed JWT tokens with every RDA request to Runtime -->
     <!--   PegaServerURL : If JWT Security is enabled, this URL is used to retrieve the JWT profile public key used to validate RDA requests -->
-    <LocalApiService enabled="false" SSL="true" port="9443" allowedOrigins="*.pega.com" JWTSecurity="false" PegaServerURL="https://MyPegaServer.com/RobotMgr" />
+    <LocalApiService enabled="true" SSL="true" port="9443" allowedOrigins="*.pega.com" JWTSecurity="false" PegaServerURL="https://MyPegaServer.com/RobotMgr" />
     <!-- PackageServer baseUrl: Address of the Package Server API endpoint. -->
     <PackageServer baseUrl="http://MyPackageServer.com" />
   </Robotics>
@@ -200,7 +200,7 @@
     <add key="ShowExitingRuntime" value="true" />
     <!-- Version of OpenSpan Office assemblies to use with Runtime. -->
     <!-- Values: "None", "2002", "2003", "2007", "2010", "2013" or "2016" -->
-    <add key="OfficeVersion" value="2016" />
+    <add key="OfficeVersion" value="2013" />
     <!-- Determines whether Direct Generic Events should be enabled.  This only applies to technologies that support direct generic events -->
     <add key="SendDirectGenericEvents" value="true" />
     <!-- Comma delimited list of case insensitive process names to prevent injection and hooking for. Maximum length 127. -->
@@ -246,7 +246,7 @@
     <MenuItem item="Separator" show="true" />
     <MenuItem item="ExpectedHours" label="Update Expected &amp;Hours" show="true" />
     <MenuItem item="Separator" show="true" />
-    <MenuItem item="RPACredentials" label="Enter RPA Credentials..." show="false" />
+    <MenuItem item="RPACredentials" label="Enter RPA Credentials..." show="true" />
     <MenuItem item="Separator" show="true" />
     <MenuItem item="Exit" label="E&amp;xit" show="true" />
   </RuntimeTrayMenu>
